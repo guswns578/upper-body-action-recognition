@@ -1,0 +1,13 @@
+{
+  "schema_version": "utterance_pose_features_v1_draft",
+  "implemented": false,
+  "keys": ["utterance_id", "start_s", "end_s", "speaker_id", "track_ids", "values", "valid_mask", "coverage"],
+  "feature_names": ["left_wrist_x_mean", "left_wrist_y_mean", "right_wrist_x_mean", "right_wrist_y_mean", "left_elbow_angle_mean", "right_elbow_angle_mean", "left_wrist_speed_mean", "right_wrist_speed_mean", "arms_crossed_candidate_fraction"],
+  "vector_length": 9,
+  "coordinates": "shoulder-centered, shoulder-width normalized, image axes",
+  "aggregation": "time-weighted over observable samples within utterance; no cross-cut interpolation",
+  "missing": "values=0 with valid_mask=false; never interpret missing zero as observed zero",
+  "coverage": "observed duration / utterance duration",
+  "identity": "external scene-local track to speaker mapping; reject ambiguous mappings",
+  "target_pid": "null unless independently established"
+}

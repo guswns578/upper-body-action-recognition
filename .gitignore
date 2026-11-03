@@ -1,0 +1,35 @@
+# data, weights, extracted poses (not distributed)
+data/
+work/
+*.pth
+*.pt
+*.onnx
+*.npz
+*.pkl
+*.jsonl
+*.mp4
+*.zip
+src/*/runs/
+src/*/raw/
+src/*/figs/
+src/cause_isolation/
+src/ppt_window_comparison/
+src/video_tool_runs/
+src/public_video_test/
+src/micro_action_pilot/
+src/behavior_module/vendor/
+
+# images except docs figures
+*.png
+*.jpg
+*.jpeg
+!docs/images/*
+
+# python
+__pycache__/
+*.pyc
+.venv*/
+
+# os
+Thumbs.db
+.DS_Store
