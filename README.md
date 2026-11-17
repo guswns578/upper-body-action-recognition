@@ -169,6 +169,8 @@ docs/
   cause_isolation_notes_ko.txt   원인 분리 결론 원문
 ```
 
+> 포트폴리오 공개를 위해 포맷(black)과 쓰지 않는 import만 정리했고 로직은 바꾸지 않았습니다. 정리 전 코드는 [`original-snapshot`](https://github.com/guswns578/upper-body-action-recognition/tree/original-snapshot) 태그에 있습니다.
+
 ## 역할
 
 과제 중 영상 기반 상반신 행동 인식 모듈을 맡아 좌표 추출 도구, 공개 모델 진단, 포즈 추출기 선정, GPU 환경 검증, MMA-52 학습까지 수행하고 있습니다. 구현에는 AI 코딩 도구를 적극 활용했고, 실험 설계·판단 기준·결과 해석은 직접 수립했습니다.
